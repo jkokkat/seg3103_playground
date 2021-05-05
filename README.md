@@ -1,5 +1,5 @@
 # seg3103_playground
-Objectives
+#Objectives
  
  Create a repo with README.md
  
@@ -7,5 +7,6 @@ Objectives
  
  Testing with Elixir
 
-Authors
+#Authors
+
 Jasmine Kokkat: 300115249
