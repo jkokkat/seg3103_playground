@@ -105,10 +105,10 @@ With a screenshot from the terminal
 I am running Elixir 11.4 with Erlang 23
 
 ```bash
-$ elixir --version
-Erlang/OTP 23 [erts-11.1.7] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [dtrace]
+$elixir --version
+Erlang/OTP 23 [erts-11.2] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe]
 
-Elixir 1.11.4 (compiled with Erlang/OTP 23)
+Elixir 1.11.2 (compiled with Erlang/OTP 23)
 ```
 
 To run the Elixir program (in `newmath_ex`), first I compile it
