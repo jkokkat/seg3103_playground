@@ -158,7 +158,7 @@ Numerator: exit
 
 With a screenshot from the terminal
 
-[Running Java in the console](assets/java_main.png)
+[![Java-Run.png](https://i.postimg.cc/DZfG1Lm2/Java-Run.png)](https://postimg.cc/jW9CbWz9)
 
 
 ### JUnit
