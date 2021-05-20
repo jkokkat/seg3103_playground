@@ -243,7 +243,7 @@ iex(1)> NewmathEx.div(10, 2)
 
 With a screenshot from the terminal
 
-![Running Elixir in the console](assets/elixir_iex.png)
+[![Elixir-Run.png](https://i.postimg.cc/pLfykC9D/Elixir-Run.png)](https://postimg.cc/w1B6jhQv)
 
 ### ExUnit
 
