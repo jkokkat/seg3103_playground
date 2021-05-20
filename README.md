@@ -14,6 +14,11 @@
 - [X] Testing with Java
 - [X] Testing with Elixir
 
+#### Prerequistes
+* Git is installed on your device
+* JUnit, Java and Elixir are installed
+* Project exists locally on your device
+
 ## Deliverables
 
 * [https://github.com/jkokkat/seg3103_playground](https://github.com/aforward/seg3103_playground/tree/main/lab01)
