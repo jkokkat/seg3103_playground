@@ -7,7 +7,7 @@
 | Date | Summer 2021 |
 | Professor | Andrew Forward, aforward@uottawa.ca |
 | TA | Zahra Kakavand, zkaka044@uottawa.ca |
-| Team | Andrew Forward 1484511<br> |
+| Team | Jasmine Kokkat 300115249<br> |
 
 ## Deliverables
 
