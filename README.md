@@ -9,6 +9,11 @@
 | TA | Zahra Kakavand, zkaka044@uottawa.ca |
 | Team | Jasmine Kokkat 300115249<br> |
 
+## Objectives
+- [X] Create a repo with README.md 
+- [X] Testing with Java
+- [X] Testing with Elixir
+
 ## Deliverables
 
 * [https://github.com/jkokkat/seg3103_playground](https://github.com/aforward/seg3103_playground/tree/main/lab01)
