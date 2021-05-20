@@ -16,13 +16,13 @@
 
 ### Java
 
-I am running Java openjdk 16
+I am running Java openjdk 14
 
 ```bash
 $ java --version
-openjdk 16 2021-03-16
-OpenJDK Runtime Environment (build 16+14)
-OpenJDK 64-Bit Server VM (build 16+14, mixed mode)
+openjdk 14.0.2 2020-07-14
+OpenJDK Runtime Environment (build 14.0.2+12-Ubuntu-120.04)
+OpenJDK 64-Bit Server VM (build 14.0.2+12-Ubuntu-120.04, mixed mode, sharing)
 ```
 
 To run the Java program (in `newmath_java`), first I compile it
