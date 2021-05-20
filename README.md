@@ -97,7 +97,7 @@ Test run finished after 32 ms
 
 With a screenshot from the terminal
 
-![Running JUnit in the console](assets/junit_main.png)
+![Running JUnit in the console][![JUnit-Test-Run.png](https://i.postimg.cc/vm4FTStM/JUnit-Test-Run.png)](https://postimg.cc/NyvPPDnP)
 
 
 ### Elixir
