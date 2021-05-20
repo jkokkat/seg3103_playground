@@ -14,7 +14,7 @@
 - [X] Testing with Java
 - [X] Testing with Elixir
 
-#### Prerequistes
+#### Prerequisites
 * Git is installed on your device
 * JUnit, Java and Elixir are installed
 * Project exists locally on your device
