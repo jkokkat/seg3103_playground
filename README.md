@@ -49,7 +49,7 @@ Numerator: exit
 
 With a screenshot from the terminal
 
-![Running Java in the console](assets/java_main.png)
+[Running Java in the console](assets/java_main.png)
 
 
 ### JUnit
@@ -97,7 +97,7 @@ Test run finished after 32 ms
 
 With a screenshot from the terminal
 
-![Running JUnit in the console][![JUnit-Test-Run.png](https://i.postimg.cc/vm4FTStM/JUnit-Test-Run.png)](https://postimg.cc/NyvPPDnP)
+[![JUnit-Test-Run.png](https://i.postimg.cc/vm4FTStM/JUnit-Test-Run.png)](https://postimg.cc/NyvPPDnP)
 
 
 ### Elixir
