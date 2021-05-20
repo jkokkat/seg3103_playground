@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-* [https://github.com/aforward/seg3103_playground/tree/main/lab01](https://github.com/aforward/seg3103_playground/tree/main/lab01)
+* [https://github.com/jkokkat/seg3103_playground](https://github.com/aforward/seg3103_playground/tree/main/lab01)
 * Shared repo above with TA and Professors
 
 ### Java
