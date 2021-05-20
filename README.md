@@ -269,5 +269,5 @@ Randomized with seed 975082
 
 With a screenshot from the terminal
 
-![Running ExUnit in the console](assets/exunit_main.png)
+[![Elixir-Test.png](https://i.postimg.cc/rmrSVWng/Elixir-Test.png)](https://postimg.cc/2bCqTqfB)
 
