@@ -97,4 +97,7 @@ This is the command used for running the tests:
 For this section, I implemented all the test cases (given in the tutorial) as explicit JUnit tests in the DateTest.java file.
 
 Explicit tests:
+
 Compilation of tests:
+![image](https://user-images.githubusercontent.com/55165117/119877348-ec435500-bef6-11eb-8367-b0aeb725206b.png)
+
