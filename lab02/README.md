@@ -33,6 +33,16 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 Here is the view when running the application.
 ![image](https://user-images.githubusercontent.com/55165117/119868541-2871b800-beed-11eb-9acd-892fc2301910.png)
 
+Here is the view through the link http://localhost:8080/.
+![image](https://user-images.githubusercontent.com/55165117/119871175-3117bd80-bef0-11eb-837c-4f2be346dee3.png)
+
+Below there is a screenshot of the initial running tests.
+![image](https://user-images.githubusercontent.com/55165117/119871524-82c04800-bef0-11eb-8d37-8685e98266ec.png)
+
+# Exercise 1
+
+In this section, I used the test cases provided in the tutorial and manually ran the tests on the application. The results
+are noted in the table below.
 
 Test Case |  Expected Results             | Actual Results                   | Verdict(Pass, Fail, Inconclusive)
 ----------|-------------------------------|----------------------------------|----------------------------------
