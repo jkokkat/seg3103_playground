@@ -65,6 +65,11 @@ Test 1 and Result
 
 Test 2 and Result
 
+![image](https://user-images.githubusercontent.com/55165117/119880241-0af71b00-befa-11eb-8e93-01b04bfeaaaa.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880270-12b6bf80-befa-11eb-8ca5-41c0e7318b69.png)
+
 
 Test 3 and Result
 
