@@ -10,8 +10,6 @@
 
 File Structure 
 
-![image](https://user-images.githubusercontent.com/55165117/119885547-f7e74980-beff-11eb-8d72-c5c1431ce8ab.png)
-
 
 ![image](https://user-images.githubusercontent.com/55165117/119885817-4bf22e00-bf00-11eb-9456-68878a86c1d9.png)
 
