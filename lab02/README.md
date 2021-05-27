@@ -85,3 +85,16 @@ Note: I used the error message table below as provided in the tutorial.
 ![image](https://user-images.githubusercontent.com/55165117/119874518-b05ac080-bef3-11eb-820c-014c2311ebfe.png)
 
 # Exercise 2
+
+For the tests, I used Junit 5. This is the command I used for compiling the tests:
+
+    javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java
+
+This is the command used for running the tests:
+
+    java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path           
+
+For this section, I implemented all the test cases (given in the tutorial) as explicit JUnit tests in the DateTest.java file.
+
+Explicit tests:
+Compilation of tests:
