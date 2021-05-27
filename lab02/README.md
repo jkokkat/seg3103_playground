@@ -29,6 +29,8 @@ To run the tests, I used the command
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
 
+
+Here is the view when running the application.
 ![image](https://user-images.githubusercontent.com/55165117/119868541-2871b800-beed-11eb-9acd-892fc2301910.png)
 
 
