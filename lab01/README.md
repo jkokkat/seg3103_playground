@@ -1,3 +1,4 @@
+# seg3103_playground
 # Lab 01
 
 | Outline | Value |
@@ -6,18 +7,35 @@
 | Date | Summer 2021 |
 | Professor | Andrew Forward, aforward@uottawa.ca |
 | TA | Zahra Kakavand, zkaka044@uottawa.ca |
-| Team |Jasmine Kokkat 300115249<br>|
+| Team | Jasmine Kokkat 300115249<br> |
+
+## Objectives
+- [X] Create a repo with README.md 
+- [X] Testing with Java
+- [X] Testing with Elixir
+
+#### Prerequisites
+* Git is installed on your device
+* JUnit, Java and Elixir are installed
+* Project exists locally on your device
 
 ## Deliverables
 
-* [https://github.com/aforward/seg3103_playground/tree/main/lab01](https://github.com/aforward/seg3103_playground/tree/main/lab01)
+* [https://github.com/jkokkat/seg3103_playground](https://github.com/aforward/seg3103_playground/tree/main/lab01)
 * Shared repo above with TA and Professors
+### File Structure 
+[![File-Structure.png](https://i.postimg.cc/W4SymRTx/File-Structure.png)](https://postimg.cc/PLpKhRLM)
 
 ### Java
 
-I am running Java openjdk 16
+I am running Java openjdk 14
 
-
+```bash
+$ java --version
+openjdk 14.0.2 2020-07-14
+OpenJDK Runtime Environment (build 14.0.2+12-Ubuntu-120.04)
+OpenJDK 64-Bit Server VM (build 14.0.2+12-Ubuntu-120.04, mixed mode, sharing)
+```
 
 To run the Java program (in `newmath_java`), first I compile it
 
@@ -43,7 +61,7 @@ Numerator: exit
 
 With a screenshot from the terminal
 
-![Running Java in the console](assets/java_main.png)
+[![Java-Run.png](https://i.postimg.cc/DZfG1Lm2/Java-Run.png)](https://postimg.cc/jW9CbWz9)
 
 
 ### JUnit
@@ -66,14 +84,12 @@ Here is the output of the tests
 
 ```bash
 Thanks for using JUnit! Support its development at https://junit.org/sponsoring
-
 ╷
 ├─ JUnit Jupiter ✔
 │  └─ NewmathTest ✔
 │     ├─ div_ok() ✔
 │     └─ div_by_zero() ✔
 └─ JUnit Vintage ✔
-
 Test run finished after 32 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
@@ -91,7 +107,7 @@ Test run finished after 32 ms
 
 With a screenshot from the terminal
 
-![Running JUnit in the console](assets/junit_main.png)
+[![JUnit-Test-Run.png](https://i.postimg.cc/vm4FTStM/JUnit-Test-Run.png)](https://postimg.cc/NyvPPDnP)
 
 
 ### Elixir
@@ -99,10 +115,9 @@ With a screenshot from the terminal
 I am running Elixir 11.4 with Erlang 23
 
 ```bash
-$ elixir --version
-Erlang/OTP 23 [erts-11.1.7] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [dtrace]
-
-Elixir 1.11.4 (compiled with Erlang/OTP 23)
+$elixir --version
+Erlang/OTP 23 [erts-11.2] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe]
+Elixir 1.11.2 (compiled with Erlang/OTP 23)
 ```
 
 To run the Elixir program (in `newmath_ex`), first I compile it
@@ -128,7 +143,7 @@ iex(1)> NewmathEx.div(10, 2)
 
 With a screenshot from the terminal
 
-![Running Elixir in the console](assets/elixir_iex.png)
+[![Elixir-Run.png](https://i.postimg.cc/pLfykC9D/Elixir-Run.png)](https://postimg.cc/w1B6jhQv)
 
 ### ExUnit
 
@@ -145,15 +160,14 @@ Here is the output of the tests
 ```bash
 Compiling 1 file (.ex)
 ...
-
 Finished in 0.02 seconds
 1 doctest, 2 tests, 0 failures
-
 Randomized with seed 975082
 ```
 
 With a screenshot from the terminal
 
-![Running ExUnit in the console](assets/exunit_main.png)
+[![Elixir-Test.png](https://i.postimg.cc/rmrSVWng/Elixir-Test.png)](https://postimg.cc/2bCqTqfB)
+
 
 
