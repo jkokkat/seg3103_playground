@@ -101,4 +101,6 @@ Explicit tests:
 Compilation of tests:
 ![image](https://user-images.githubusercontent.com/55165117/119877348-ec435500-bef6-11eb-8367-b0aeb725206b.png)
 
+Running the tests:
+![image](https://user-images.githubusercontent.com/55165117/119878050-b652a080-bef7-11eb-8370-c6bfd85126db.png)
 ![image](https://user-images.githubusercontent.com/55165117/119877917-96bb7800-bef7-11eb-93d7-f8095d84347d.png)
