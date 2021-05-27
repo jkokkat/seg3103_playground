@@ -8,6 +8,14 @@
 | TA | Henry Chen, zchen229@uottawa.ca |
 | Team |Jasmine Kokkat 300115249<br>|
 
+File Structure 
+
+
+![image](https://user-images.githubusercontent.com/55165117/119885817-4bf22e00-bf00-11eb-9456-68878a86c1d9.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119885886-62988500-bf00-11eb-86b7-b6848a8c2bee.png)
+
 
 The first step was to make sure the code compiles and runs without any errors.
 
