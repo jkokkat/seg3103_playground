@@ -41,6 +41,9 @@ Below there is a screenshot of the initial running tests.
 
 # Exercise 1
 
+In this section, I used the test cases provided in the tutorial and manually ran the tests on the application. The results
+are noted in the table below.
+
 Test Case |  Expected Results             | Actual Results                   | Verdict(Pass, Fail, Inconclusive)
 ----------|-------------------------------|----------------------------------|----------------------------------
 1         | registration request accepted | registration request accepted    | Pass
