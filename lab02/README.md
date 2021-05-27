@@ -54,3 +54,34 @@ Test Case |  Expected Results             | Actual Results                   | V
 6         | Err3                          | Err1 and Err3  and Err6          | Fail
 7         | Err3                          | Err3                             | Pass
 8         | Err1                          | Err1                             | Pass
+
+Test 1 and Result
+
+Test 2 and Result
+
+
+Test 3 and Result
+
+
+Test 4 and Result
+
+
+Test 5 and Result
+
+
+Test 6 and Result
+
+
+
+Test 7 and Result
+
+
+Test 8 and Result
+
+
+
+
+Note: I used the error message table below as provided in the tutorial.
+![image](https://user-images.githubusercontent.com/55165117/119874518-b05ac080-bef3-11eb-820c-014c2311ebfe.png)
+
+# Exercise 2
