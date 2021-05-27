@@ -103,10 +103,20 @@ Test 6 and Result
 
 Test 7 and Result
 
+![image](https://user-images.githubusercontent.com/55165117/119880997-ce77ef00-befa-11eb-9065-575cd37caed4.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119881032-d5066680-befa-11eb-8240-d6a0b57b74cb.png)
+
 
 Test 8 and Result
 
 
+![image](https://user-images.githubusercontent.com/55165117/119881370-36c6d080-befb-11eb-9ae8-6a851b35a7bb.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119881397-41816580-befb-11eb-9584-d400a75d5377.png)
 
 
 Note: I used the error message table below as provided in the tutorial.
