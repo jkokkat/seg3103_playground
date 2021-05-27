@@ -13,10 +13,10 @@ File Structure
 ![image](https://user-images.githubusercontent.com/55165117/119885547-f7e74980-beff-11eb-8d72-c5c1431ce8ab.png)
 
 
-![image](https://user-images.githubusercontent.com/55165117/119885623-11889100-bf00-11eb-8339-cf3e9d5261ef.png)
+![image](https://user-images.githubusercontent.com/55165117/119885817-4bf22e00-bf00-11eb-9456-68878a86c1d9.png)
 
 
-![image](https://user-images.githubusercontent.com/55165117/119885698-26fdbb00-bf00-11eb-88ae-977bef97a471.png)
+![image](https://user-images.githubusercontent.com/55165117/119885886-62988500-bf00-11eb-86b7-b6848a8c2bee.png)
 
 
 The first step was to make sure the code compiles and runs without any errors.
