@@ -94,13 +94,22 @@ This is the command used for running the tests:
 
     java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path           
 
-For this section, I implemented all the test cases (given in the tutorial) as explicit JUnit tests in the DateTest.java file.
 
-Explicit tests:
+Explicit tests: 
+For this section, I implemented all the test cases (given in the tutorial) as explicit JUnit tests in the DateTest.java file.
 
 Compilation of tests:
 ![image](https://user-images.githubusercontent.com/55165117/119877348-ec435500-bef6-11eb-8367-b0aeb725206b.png)
 
+Parameterized tests:
+I then wrote tests for the DateNextDateOkTest test suite and DateNextDateExceptionTest test suite.
+![image](https://user-images.githubusercontent.com/55165117/119878444-1d705500-bef8-11eb-9c2f-673a1c180720.png)
+
+
 Running the tests:
 ![image](https://user-images.githubusercontent.com/55165117/119878050-b652a080-bef7-11eb-8370-c6bfd85126db.png)
 ![image](https://user-images.githubusercontent.com/55165117/119877917-96bb7800-bef7-11eb-93d7-f8095d84347d.png)
+
+The results of all the test cases: 
+![image](https://user-images.githubusercontent.com/55165117/119878686-6f18df80-bef8-11eb-9f7b-1d78652c5142.png)
+
