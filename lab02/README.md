@@ -1,3 +1,14 @@
+# Lab 02
+
+| Outline | Value |
+| --- | --- |
+| Course | SEG 3103 |
+| Date | Summer 2021 |
+| Professor | Andrew Forward, aforward@uottawa.ca |
+| TA | Henry Chen, zchen229@uottawa.ca |
+| Team |Jasmine Kokkat 300115249<br>|
+
+
 The first step was to make sure the code compiles and runs without any errors.
 
 To compile the application, I used the command
