@@ -36,6 +36,10 @@ Here is the view when running the application.
 Here is the view through the link http://localhost:8080/.
 ![image](https://user-images.githubusercontent.com/55165117/119871175-3117bd80-bef0-11eb-837c-4f2be346dee3.png)
 
+Below there is a screenshot of the initial running tests.
+![image](https://user-images.githubusercontent.com/55165117/119871524-82c04800-bef0-11eb-8d37-8685e98266ec.png)
+
+
 
 Test Case |  Expected Results             | Actual Results                   | Verdict(Pass, Fail, Inconclusive)
 ----------|-------------------------------|----------------------------------|----------------------------------
