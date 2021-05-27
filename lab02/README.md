@@ -51,6 +51,108 @@ Test Case |  Expected Results             | Actual Results                   | V
 3         | registration request accepted | registration request accepted    | Pass
 4         | registration request accepted | registration request accepted    | Pass
 5         | Err1                          | Err1 and Err3                    | Fail
-6         | Err3                          | Err1 and Err3  and Err6          | Fail
+6         | Err3                          | Err1 and Err3                    | Fail
 7         | Err3                          | Err3                             | Pass
 8         | Err1                          | Err1                             | Pass
+
+Test 1 and Result
+
+
+![image](https://user-images.githubusercontent.com/55165117/119879921-bbb0ea80-bef9-11eb-94a4-b288086f4746.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119879951-c4092580-bef9-11eb-83a5-9e71260d8de1.png)
+
+Test 2 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880241-0af71b00-befa-11eb-8e93-01b04bfeaaaa.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880270-12b6bf80-befa-11eb-8ca5-41c0e7318b69.png)
+
+
+Test 3 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880470-498cd580-befa-11eb-9c84-bd1c707a5eef.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880501-50b3e380-befa-11eb-81b6-eb86b2c38387.png)
+
+
+Test 4 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880562-5f9a9600-befa-11eb-918e-aeff4ffb0342.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880589-66c1a400-befa-11eb-8a77-7a939bc81bef.png)
+
+
+Test 5 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880693-8062eb80-befa-11eb-8dff-76c245a2cd21.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880753-8f499e00-befa-11eb-8c06-21b3b437680c.png)
+
+
+Test 6 and Result
+
+
+![image](https://user-images.githubusercontent.com/55165117/119882678-ab4e3f00-befc-11eb-88ea-a6f7716fdb8d.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119883438-8c03e180-befd-11eb-8729-e1f67246cac3.png)
+
+
+Test 7 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880997-ce77ef00-befa-11eb-9065-575cd37caed4.png)
+
+
+![image](https://user-images.githubusercontent.com/55165117/119881032-d5066680-befa-11eb-8240-d6a0b57b74cb.png)
+
+
+Test 8 and Result
+
+
+![image](https://user-images.githubusercontent.com/55165117/119881370-36c6d080-befb-11eb-9ae8-6a851b35a7bb.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119881397-41816580-befb-11eb-9584-d400a75d5377.png)
+
+
+Note: I used the error message table below as provided in the tutorial.
+![image](https://user-images.githubusercontent.com/55165117/119874518-b05ac080-bef3-11eb-820c-014c2311ebfe.png)
+
+# Exercise 2
+
+For the tests, I used Junit 5. This is the command I used for compiling the tests:
+
+    javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java
+
+This is the command used for running the tests:
+
+    java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path           
+
+
+Explicit tests: 
+For this section, I implemented all the test cases (given in the tutorial) as explicit JUnit tests in the DateTest.java file.
+
+Compilation of tests:
+![image](https://user-images.githubusercontent.com/55165117/119877348-ec435500-bef6-11eb-8367-b0aeb725206b.png)
+
+Parameterized tests:
+I then wrote tests for the DateNextDateOkTest test suite and DateNextDateExceptionTest test suite.
+![image](https://user-images.githubusercontent.com/55165117/119878444-1d705500-bef8-11eb-9c2f-673a1c180720.png)
+
+
+Running the tests:
+![image](https://user-images.githubusercontent.com/55165117/119878050-b652a080-bef7-11eb-8370-c6bfd85126db.png)
+![image](https://user-images.githubusercontent.com/55165117/119877917-96bb7800-bef7-11eb-93d7-f8095d84347d.png)
+
+The results of all the test cases: 
+![image](https://user-images.githubusercontent.com/55165117/119878686-6f18df80-bef8-11eb-9f7b-1d78652c5142.png)
+
