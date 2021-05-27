@@ -16,6 +16,7 @@ To compile the application, I used the command
 javac -encoding UTF-8 --source-path src -d dist src/*.java
 
 
+![image](https://user-images.githubusercontent.com/55165117/119868541-2871b800-beed-11eb-9acd-892fc2301910.png)
 
 
 Test Case |  Expected Results             | Actual Results                   | Verdict(Pass, Fail, Inconclusive)
