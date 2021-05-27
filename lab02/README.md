@@ -73,8 +73,20 @@ Test 2 and Result
 
 Test 3 and Result
 
+![image](https://user-images.githubusercontent.com/55165117/119880470-498cd580-befa-11eb-9c84-bd1c707a5eef.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880501-50b3e380-befa-11eb-81b6-eb86b2c38387.png)
+
 
 Test 4 and Result
+
+![image](https://user-images.githubusercontent.com/55165117/119880562-5f9a9600-befa-11eb-918e-aeff4ffb0342.png)
+
+
+
+![image](https://user-images.githubusercontent.com/55165117/119880589-66c1a400-befa-11eb-8a77-7a939bc81bef.png)
 
 
 Test 5 and Result
