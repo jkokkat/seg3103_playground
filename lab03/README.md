@@ -41,4 +41,15 @@ To open the report
   ./report/index.html
 ```
 ### Initial Jacoco Reports
+
+#### Computation
 ![image](https://user-images.githubusercontent.com/55165117/120685972-79922680-c46e-11eb-8d68-ac22169705fd.png)
+
+![image](https://user-images.githubusercontent.com/55165117/120687411-fffb3800-c46f-11eb-952a-3cdbbcd1c209.png)
+
+#### Date
+
+![image](https://user-images.githubusercontent.com/55165117/120687751-50729580-c470-11eb-9231-428d3f181325.png)
+
+
+
