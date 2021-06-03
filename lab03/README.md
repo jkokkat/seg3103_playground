@@ -29,3 +29,12 @@ To run the agent
 ```bash
 java -javaagent:lib/jacocoagent.jar -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
+To generate a report
+```bash
+java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles src --html report
+```
+
+To open the report
+```bash
+  ./report/index.html
+```
