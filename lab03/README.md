@@ -64,7 +64,7 @@ To open the report
 
 
 
-I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February, and the day is the 28th. As well, it did not include a test where the year is a leap year, the month is February, and the day is the 28th. I added these tests, as shown below:
+I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February, and the day is the 28th. It also did not include a test where the year is a leap year, the month is February, and the day is the 28th. I added these tests, as shown below:
 ```bash
 @Test
 void nextDate_endOfMonth(){
@@ -164,7 +164,7 @@ I achieved full coverage for the setDay(int) method by adding the following test
     );
   }
 ```
-It is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report. I am not able to achieve 100% coverage for Date.java because in the setMonth() method, the month cannot be less than 1 and greater than 12 at the same time. This is why only 3 out of 4 branches (75%) can be covered by the provided test cases.
+It is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report. I am not able to achieve 100% coverage for Date.java because in the setMonth() method, the month cannot be less than 1 and greater than 12 at the same time. This is why 3 out of 4 branches (75%) can be covered by the provided test cases.
 
 ## Exercise 2
 Refactoring 
@@ -172,7 +172,7 @@ Refactoring
 I refactored the methods setDay() and isThirtyDayMonth(). Comparing the initial coverage prior to any implementation, the refactoring improved the test coverage.
 setDay() had an increase in instruction coverage from 64% to 80% and isThirtyDayMonth went from 87% branch coverage to 100% branch coverage.
 
-The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, it only has 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. The method used to have 4 OR statements and currently, it only has to check if the month is one of the months that have 30 days. This cleans up the code more and reduces the number of branches to check during testing. Below is an image of the improvement in coverage after refactoring:
+The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, I reduced it to 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. The method used to have 4 OR conditions in the if statement and currently, it only has to check if the month is one of the months that have 30 days. This cleans up the code more and reduces the number of branches to verify during testing. Below is an image of the improvement in coverage after refactoring:
 
 ![image](https://user-images.githubusercontent.com/55165117/120702080-a7cd3180-c481-11eb-850d-31f8f9865bd7.png)
 
