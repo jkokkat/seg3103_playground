@@ -169,4 +169,10 @@ I am not able to achieve 100% coverage for Date.java because in the setMonth() m
 ## Exercise 2
 Refactoring 
 
+I refactored the methods setDay() and isThirtyDayMonth(). Comparing the initial coverage prior to any implementation, the refactoring improved the test coverage.
+setDay() had an increase in instruction coverage from 64% to 80% and isThirtyDayMonth went from 87% branch coverage to 100% branch coverage.
+
+The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, it only has 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. Before we made changes, the method had 4 OR statements. Now, it only has to check if the month is part of a list of month that have 30 days. This cleans up the code more and reduces the number of branches to check during testing. Below is an image of the improvement in coverage after refactoring:
+
+![image](https://user-images.githubusercontent.com/55165117/120702080-a7cd3180-c481-11eb-850d-31f8f9865bd7.png)
 
