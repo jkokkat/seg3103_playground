@@ -34,7 +34,11 @@ To generate a report
 java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles src --html report
 ```
 
+
+
 To open the report
 ```bash
   ./report/index.html
 ```
+### Initial Jacoco Reports
+![image](https://user-images.githubusercontent.com/55165117/120685972-79922680-c46e-11eb-8d68-ac22169705fd.png)
