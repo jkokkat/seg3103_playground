@@ -57,5 +57,8 @@ To open the report
 
 ![image](https://user-images.githubusercontent.com/55165117/120687751-50729580-c470-11eb-9231-428d3f181325.png)
 
+##### After Further Coverage Testing
+
+![image](https://user-images.githubusercontent.com/55165117/120692690-1d330500-c476-11eb-8d41-e25a0f5130e4.png)
 
 
