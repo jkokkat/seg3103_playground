@@ -29,6 +29,12 @@ To run the agent
 ```bash
 java -javaagent:lib/jacocoagent.jar -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
+
+![image](https://user-images.githubusercontent.com/55165117/120688465-16ee5a00-c471-11eb-9840-4d332e8921ed.png)
+
+![image](https://user-images.githubusercontent.com/55165117/120688589-38e7dc80-c471-11eb-93e8-f9ae434bfe0b.png)
+
+
 To generate a report
 ```bash
 java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles src --html report
