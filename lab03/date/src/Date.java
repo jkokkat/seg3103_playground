@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Date {
 
 	/* Data fields */
@@ -43,20 +46,14 @@ public class Date {
 	 *   - less or equal to 30 for February if year is non-leap
 	 */
 	private void setDay(int day) {
-		if (day < 1) {
-			throw new IllegalArgumentException("day must greater or equal to 1.");
-		}
-		if (day > 31){
-			throw new IllegalArgumentException("day must less or equal to 31.");
+		if (day < 1 || day> 31) {
+			throw new IllegalArgumentException(" The day must be greater or equal to 1 or less or equal to 31.");
 		}
 		if (isThirtyDayMonth() && day > 30) {
 			throw new IllegalArgumentException("day must less than 30 for month " + monthNames[month-1]);
 		}
-		if (this.month == 2 && isLeapYear() && day > 29) {
-			throw new IllegalArgumentException("day must less than 29 for month " + monthNames[month-1] + " on a leap year.");
-		}
-		if (this.month == 2 && !isLeapYear() && day > 28) {
-			throw new IllegalArgumentException("day must less than 28 for month " + monthNames[month-1] + " on a non leap year.");
+		if ((this.month == 2 && isLeapYear() && day > 29) || (this.month == 2 && !isLeapYear() && day > 28)) {
+			throw new IllegalArgumentException("The day must less than 28 or 29 for month " + monthNames[month-1] + " on a non leap year or leap year.");
 		}
 		this.day = day;
 	}
@@ -116,9 +113,11 @@ public class Date {
 	 * returns true if month has 30 days.
 	 */
 	private boolean isThirtyDayMonth() {
-		if (this.month == 4 || this.month == 6 || this.month == 9 || this.month == 11)
+		ArrayList<Integer> thirtyMonth = new ArrayList<>(Arrays.asList(4,6,9,11));
+		if (thirtyMonth.contains(this.month)) {
 			return true;
-		else return false;
+		}
+		return false;
 	}
 
 	/**
