@@ -96,9 +96,9 @@ void nextDate_endOfMonth2(){
     assertEquals(expectedTomorrow, today.nextDate());
 }
 ```
-However, it is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report.
+It is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report.
 
-Furthermore, I achieved 100% coverage for the equals(Object) method. The initial test suite did not include tests where a date was compared to an object. The equals() method should return False in this case. I also added tests to compare dates where the year, month, and day vary between the two dates. These tests are shown below:
+I also achieved 100% coverage for the equals(Object) method. The initial test suite did not include tests where a date was compared to an object. The equals() method should return False for this test case. I also added tests to compare dates where the year, month, and day vary between the two dates. These tests are shown below:
 ```bash
  @Test
   void nextDate_equals(){
@@ -137,7 +137,7 @@ Next, I achieved full coverage for the toString() method by adding these tests:
       assertEquals("2021/July/27",date.toString());
   }
 ```
-Lastly, I achieved full coverage for the setDay(int) method by adding the following tests where the day is greater than 31, the day is greater than 30 for a 30-day month, and where the day is greater than 29 in February in a leap year.
+I achieved full coverage for the setDay(int) method by adding the following tests where the day is greater than 31, the day is greater than 30 for a 30-day month, and where the day is greater than 29 in February in a leap year.
 
 ```bash
 @Test
