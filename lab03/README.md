@@ -10,7 +10,7 @@
 | Team | Jasmine Kokkat 300115249<br> |
 
 
-#Compilation and Running of Code
+# Compilation and Running of Code
 
 
 First I compiled and ran all code in both of the computation and date directory. 
