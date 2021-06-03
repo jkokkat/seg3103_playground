@@ -62,7 +62,7 @@ To open the report
 
 ![image](https://user-images.githubusercontent.com/55165117/120692690-1d330500-c476-11eb-8d41-e25a0f5130e4.png)
 
-I achieved 100% coverage for the method isThirtyDayMonth() because it did not include September for a test case, which is a thirty day month. I added the following test case:
+I achieved 100% coverage for the method isThirtyDayMonth() because it did not include September for a test case, which is a thirty day month. I added the test case below:
 ```bash
 @Test
 void nextDate_9month() {
@@ -71,7 +71,7 @@ void nextDate_9month() {
       assertEquals(expectedDayAfter, today.nextDate());
 }
 ```
-I also achieved 100% coverage for the method isLeapYear(). The initial test suite did not have a test where the year was a century year divisible by 400. So, we added the following test case, where the year is 2000 (which is a century year divisible by 400):
+I also achieved 100% coverage for the method isLeapYear(). The initial test suite did not have a test where the year was a century year divisible by 400. So, I added the test case, when the year is 2000 since it is a century divisible by 400.
 ```bash
  @Test 
   void nextDate_leapYear(){
@@ -80,7 +80,7 @@ I also achieved 100% coverage for the method isLeapYear(). The initial test suit
       assertEquals(expectedDayAfter, today.nextDate());
   }
   ```
-Then, I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February (2), and the day is the 28th. As well, it did not include a test where the year is a leap year, the month is February (2), and the day is the 28th. I added these tests, as shown below:
+Then, I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February, and the day is the 28th. As well, it did not include a test where the year is a leap year, the month is February, and the day is the 28th. I added these tests, as shown below:
 ```bash
 @Test
 void nextDate_endOfMonth(){
@@ -172,7 +172,7 @@ Refactoring
 I refactored the methods setDay() and isThirtyDayMonth(). Comparing the initial coverage prior to any implementation, the refactoring improved the test coverage.
 setDay() had an increase in instruction coverage from 64% to 80% and isThirtyDayMonth went from 87% branch coverage to 100% branch coverage.
 
-The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, it only has 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. Before we made changes, the method had 4 OR statements. Now, it only has to check if the month is part of a list of month that have 30 days. This cleans up the code more and reduces the number of branches to check during testing. Below is an image of the improvement in coverage after refactoring:
+The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, it only has 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. The method used to have 4 OR statements and currently, it only has to check if the month is one of the months that have 30 days. This cleans up the code more and reduces the number of branches to check during testing. Below is an image of the improvement in coverage after refactoring:
 
 ![image](https://user-images.githubusercontent.com/55165117/120702080-a7cd3180-c481-11eb-850d-31f8f9865bd7.png)
 
