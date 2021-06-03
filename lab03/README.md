@@ -96,7 +96,7 @@ void nextDate_endOfMonth2(){
     assertEquals(expectedTomorrow, today.nextDate());
 }
 ```
-However, it is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered.
+However, it is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report.
 
 Furthermore, I achieved 100% coverage for the equals(Object) method. The initial test suite did not include tests where a date was compared to an object. The equals() method should return False in this case. I also added tests to compare dates where the year, month, and day vary between the two dates. These tests are shown below:
 ```bash
