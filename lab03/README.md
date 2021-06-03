@@ -17,8 +17,10 @@ First I compiled and ran all code in both of the computation and date directory.
 To compile the application:
 ```bash
       javac -encoding UTF-8 --source-path src -d dist src/*.java
-      ```
+```
+
 To compile the tests
+
 ```bash
 javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java
 ```
