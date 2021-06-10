@@ -4,10 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
+    private String fizzBuzz(int num){
+		return "1";
+	}
 
-    @Test
-    void firstTest(){
-        assertTrue(true);
-    }
-
+	@Test
+	public void test_fizzBuzz1(){
+		assertEquals("2", fizzBuzz(2));
+	}
 }
