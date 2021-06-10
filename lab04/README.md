@@ -24,7 +24,7 @@ To run the tests, I use this command:
  java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
 
-I implemented the fizzBuzz(int num) method with 5 commit groups since I worked individually. This method returns a string based on the number being passed in. For example, if 3 is passed, the string "Fizz" will be returned. If 15 is passed, "FizzBuzz" will be returned. Each commit group contains a failed test and a passed test. The groups of commits are shown in the images below. The method is quite simple in terms of its code, so it did not require extensive refactoring.
+I implemented the fizzBuzz(int num) method with 5 commit groups since I worked individually. This method returns a string based on the number being passed in. For example, if 3 is passed, the string "Fizz" will be returned. If 15 is passed, "FizzBuzz" will be returned. Each commit group contains a failed test and a passed test. The groups of commits are shown in the images below. The method is quite simple in terms of its code, so it did not require extensive refactoring. Refactoring was done for both Tests 1 and 2 to pass, for Test 5 to pass with the previous tests, and Test 15 to pass with the previous tests.
 
 # Commit Group 1
 ![image](https://user-images.githubusercontent.com/55165117/121585256-5d5b3000-ca00-11eb-8c76-1042cbda24c0.png)
