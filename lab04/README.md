@@ -11,8 +11,8 @@ Team | Jasmine Kokkat 300115249
 I compiled and ran the tic and fizzbuzz files prior to starting the lab. 
 ![image](https://user-images.githubusercontent.com/55165117/121583092-d4db9000-c9fd-11eb-8baf-5da7bb008867.png)
 
-# Testing BuzzFizz
-I chose to work on the FizzBuzz project and implemented FizzBuzzTest.java.
+# Testing FizzBuzz in JAVA
+I chose to work on the FizzBuzz project and implemented FizzBuzzTest.java
 
 To compile it, I run 
 ```bash
