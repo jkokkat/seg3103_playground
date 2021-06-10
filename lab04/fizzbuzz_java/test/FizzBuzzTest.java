@@ -12,15 +12,20 @@ public class FizzBuzzTest {
 	}
 
 	@Test
-	public void test_fizzBuzz1(){
+	public void test_fizzBuzz2(){
 		assertEquals("2", fizzBuzz(2));
 	}
 
     @Test
-	public void test_fizzBuzz2(){
+	public void test_fizzBuzz1(){
 		assertEquals("1", fizzBuzz(1));
 	}
     @Test void test_fizzBuzz3(){
 		assertEquals("Fizz", fizzBuzz(3));
 	}
+    @Test
+	public void test_fizzBuzz5(){
+		assertEquals("Buzz", fizzBuzz(5));
+	}
+
 }
