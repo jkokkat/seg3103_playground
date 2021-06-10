@@ -62,25 +62,9 @@ To open the report
 
 ![image](https://user-images.githubusercontent.com/55165117/120692690-1d330500-c476-11eb-8d41-e25a0f5130e4.png)
 
-I achieved 100% coverage for the method isThirtyDayMonth() because it did not include September for a test case, which is a thirty day month. I added the following test case:
-```bash
-@Test
-void nextDate_9month() {
-      Date today = new Date(1901, 9, 1);
-      Date expectedDayAfter = new Date(1901, 9, 2);
-      assertEquals(expectedDayAfter, today.nextDate());
-}
-```
-I also achieved 100% coverage for the method isLeapYear(). The initial test suite did not have a test where the year was a century year divisible by 400. So, we added the following test case, where the year is 2000 (which is a century year divisible by 400):
-```bash
- @Test 
-  void nextDate_leapYear(){
-      Date today = new Date(2000, 1, 1);
-      Date expectedDayAfter = new Date(2000, 1, 2);
-      assertEquals(expectedDayAfter, today.nextDate());
-  }
-  ```
-Then, I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February (2), and the day is the 28th. As well, it did not include a test where the year is a leap year, the month is February (2), and the day is the 28th. I added these tests, as shown below:
+
+
+I improved the coverage for the method isEndOfMonth(). The initial test suite did not include a test where the year is not a leap year, the month is February, and the day is the 28th. It also did not include a test where the year is a leap year, the month is February, and the day is the 28th. I added these tests, as shown below:
 ```bash
 @Test
 void nextDate_endOfMonth(){
@@ -96,8 +80,15 @@ void nextDate_endOfMonth2(){
     assertEquals(expectedTomorrow, today.nextDate());
 }
 ```
-It is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report.
-
+I achieved 100% coverage for the method isThirtyDayMonth() because it did not include September for a test case, which is a thirty day month. I added the test case below:
+```bash
+@Test
+void nextDate_9month() {
+      Date today = new Date(1901, 9, 1);
+      Date expectedDayAfter = new Date(1901, 9, 2);
+      assertEquals(expectedDayAfter, today.nextDate());
+}
+```
 I also achieved 100% coverage for the equals(Object) method. The initial test suite did not include tests where a date was compared to an object. The equals() method should return False for this test case. I also added tests to compare dates where the year, month, and day vary between the two dates. These tests are shown below:
 ```bash
  @Test
@@ -128,7 +119,7 @@ I also achieved 100% coverage for the equals(Object) method. The initial test su
       assertFalse(date.equals(date2));
   }
 ```
-Next, I achieved full coverage for the toString() method by adding these tests:
+I achieved full coverage for the toString() method by adding these tests:
 
 ```bash
  @Test
@@ -137,6 +128,15 @@ Next, I achieved full coverage for the toString() method by adding these tests:
       assertEquals("2021/July/27",date.toString());
   }
 ```
+I also achieved 100% coverage for the method isLeapYear(). The initial test suite did not have a test where the year was a century year divisible by 400. So, I added the test case, when the year is 2000 since it is a century divisible by 400.
+```bash
+ @Test 
+  void nextDate_leapYear(){
+      Date today = new Date(2000, 1, 1);
+      Date expectedDayAfter = new Date(2000, 1, 2);
+      assertEquals(expectedDayAfter, today.nextDate());
+  }
+  ```
 I achieved full coverage for the setDay(int) method by adding the following tests where the day is greater than 31, the day is greater than 30 for a 30-day month, and where the day is greater than 29 in February in a leap year.
 
 ```bash
@@ -164,7 +164,7 @@ I achieved full coverage for the setDay(int) method by adding the following test
     );
   }
 ```
-I am not able to achieve 100% coverage for Date.java because in the setMonth() method, the month cannot be less than 1 and greater than 12 at the same time. This is why only 3 out of 4 branches (75%) can be covered by the provided test cases.
+It is not possible to obtain 100% coverage because it is impossible for the month of February to have 29 days if it is not a leap year, so the branch with this condition cannot be covered, as seen in the report. I am not able to achieve 100% coverage for Date.java because in the setMonth() method, the month cannot be less than 1 and greater than 12 at the same time. This is why 3 out of 4 branches (75%) can be covered by the provided test cases.
 
 ## Exercise 2
 Refactoring 
@@ -172,7 +172,7 @@ Refactoring
 I refactored the methods setDay() and isThirtyDayMonth(). Comparing the initial coverage prior to any implementation, the refactoring improved the test coverage.
 setDay() had an increase in instruction coverage from 64% to 80% and isThirtyDayMonth went from 87% branch coverage to 100% branch coverage.
 
-The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, it only has 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. Before we made changes, the method had 4 OR statements. Now, it only has to check if the month is part of a list of month that have 30 days. This cleans up the code more and reduces the number of branches to check during testing. Below is an image of the improvement in coverage after refactoring:
+The instruction coverage for setDay improved due to having less if statements to test during the run. Initially, this method had 5 if statements and after refactoring, I reduced it to 3. For the isThirtyDayMonth() method, the branch coverage improved due to having less possibilites inside the if statement. The method used to have 4 OR conditions in the if statement and currently, it only has to check if the month is one of the months that have 30 days. This cleans up the code more and reduces the number of branches to verify during testing. Below is an image of the improvement in coverage after refactoring:
 
 ![image](https://user-images.githubusercontent.com/55165117/120702080-a7cd3180-c481-11eb-850d-31f8f9865bd7.png)
 
