@@ -32,14 +32,13 @@ I implemented the fizzBuzz(int num) method with 5 commit groups since I worked i
 ### Commit Group 1
 ![image](https://user-images.githubusercontent.com/55165117/121585256-5d5b3000-ca00-11eb-8c76-1042cbda24c0.png)
 
-
 ### Commit Group 2
 ![image](https://user-images.githubusercontent.com/55165117/121585315-706e0000-ca00-11eb-8742-f93c4c285d41.png)
 
 ### Commit Group 3
 ![image](https://user-images.githubusercontent.com/55165117/121585367-8085df80-ca00-11eb-9587-e9ca7edbca52.png)
 
-#### Commit Group 4
+### Commit Group 4
 ![image](https://user-images.githubusercontent.com/55165117/121585420-8f6c9200-ca00-11eb-98c9-a7ee2106f88e.png)
 
 ### Commit Group 5
