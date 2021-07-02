@@ -36,12 +36,12 @@ public boolean isMentionned(String name) {
     if (tweet==null){
       return false;
     }
-    int index = tweet.indexOf("@");
-    int index2 = tweet.indexOf(" ",index);
-    if (index2==-1){
-      tweet = tweet.substring(index);
+    int indexOne = tweet.indexOf("@");
+    int indexTwo = tweet.indexOf(" ",indexOne);
+    if (indexTwo==-1){
+      tweet = tweet.substring(indexOne);
     }else{
-      tweet = tweet.substring(index,index2);
+      tweet = tweet.substring(indexOne,indexTwo);
     }
     return tweet.equals("@" + name); 
   }
