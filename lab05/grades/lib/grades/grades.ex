@@ -6,19 +6,19 @@
 #   Contexts are also responsible for managing your data, regardless
 #   if it comes from the database, an external API or others.
    """
-   def percentage_grade(marks) do
-     :rand.uniform(100)
-   end
+#   def percentage_grade(marks) do
+#     :rand.uniform(100)
+#  end
 
-   def letter_grade(marks) do
-     Enum.at(["A+", "A", "A-", "B+", "B", "C+", "C", "D+", "D", "E", "F"], :rand.uniform(10))
-   end
+#   def letter_grade(marks) do
+#     Enum.at(["A+", "A", "A-", "B+", "B", "C+", "C", "D+", "D", "E", "F"], :rand.uniform(10))
+#   end
 
-   def numeric_grade(marks) do
-    :rand.uniform(10)
-   end
- end
-defmodule Grades.Calculator do
+#   def numeric_grade(marks) do
+#    :rand.uniform(10)
+#   end
+# end
+
   def percentage_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
     avg_homework =
       if Enum.count(homework) == 0 do
