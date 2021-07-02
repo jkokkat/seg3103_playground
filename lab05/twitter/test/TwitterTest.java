@@ -66,7 +66,7 @@ class TwitterTest {
         replay(twitter);
 
         boolean actual;
-
+        
       // isMentionned("me") should be true
         actual = twitter.isMentionned("me");
         assertTrue(actual);
@@ -81,7 +81,7 @@ class TwitterTest {
         Twitter twitter = partialMockBuilder(Twitter.class)
           .addMockedMethod("loadTweet")
           .createMock();
-
+          
         expect(twitter.loadTweet()).andReturn("hello @meat").times(2);
         replay(twitter);
 
@@ -100,7 +100,7 @@ class TwitterTest {
         Twitter twitter = partialMockBuilder(Twitter.class)
           .addMockedMethod("loadTweet")
           .createMock();
-
+          
         expect(twitter.loadTweet()).andReturn("hello @me").times(2);
         replay(twitter);
 
@@ -119,7 +119,7 @@ class TwitterTest {
         Twitter twitter = partialMockBuilder(Twitter.class)
           .addMockedMethod("loadTweet")
           .createMock();
-
+          
         expect(twitter.loadTweet()).andReturn(null).times(2);
         replay(twitter);
 
@@ -131,4 +131,4 @@ class TwitterTest {
         actual = twitter.isMentionned("meat");
         assertFalse(actual);
     }
-} 
+}
