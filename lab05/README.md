@@ -12,6 +12,7 @@ Team | Jasmine Kokkat 300115249
 
 ### Part 1: Stubs
 I compiled and ran the grade and twitter files prior to starting the lab. I then stubbed the three methods in Grades.Calculator ( percentage_grade, letter_grade, and numeric_grade) as shown below.
+![image](https://user-images.githubusercontent.com/55165117/124314690-c84fe080-db40-11eb-8bab-0ddad225900e.png)
 
 The image below shows the stubbed code working for the web application.
 
