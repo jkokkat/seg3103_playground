@@ -19,7 +19,7 @@ The image below shows the stubbed code working for the web application.
 
 
 After replacing the stubbed code with the Assignment 2 implementation, this error in the screenshot below was seen when attempting to run the application. There is an arithmetic error when I input grades into the application because the numbers are strings instead of integers, which causes an error when being passed into the methods of Grades.Calculator which calculates the final grade using only integers.
-![image](https://user-images.githubusercontent.com/55165117/124315050-5d52d980-db41-11eb-8c30-3a9ae78d2212.png)
+![image](https://user-images.githubusercontent.com/55165117/124315166-8a9f8780-db41-11eb-9780-1a5f82cc1eec.png)
 
 ### Part 2: Mocks
 
