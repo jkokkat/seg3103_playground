@@ -25,4 +25,4 @@ After replacing the stubbed code with the Assignment 2 implementation, this erro
 
 For this section, I implemented four missing test cases in the TwitterTest.java file. 
 These are the intial results when running the tests:
-![image](https://user-images.githubusercontent.com/55165117/124314950-30062b80-db41-11eb-8ae3-5e1fe17127e2.png)
+![image](https://user-images.githubusercontent.com/55165117/124315909-bb33f100-db42-11eb-8b9f-16357ef78675.png)
