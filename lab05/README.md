@@ -27,7 +27,7 @@ For this section, I implemented four missing test cases in the TwitterTest.java 
 These are the intial results when running the tests:
 ![image](https://user-images.githubusercontent.com/55165117/124315909-bb33f100-db42-11eb-8b9f-16357ef78675.png)
 
-By looking at the code of the isMentionned method in Twitter.java, it is evident why the two tests failed. I modified the code as shown in the image below of isMentionned to handle when the tweet is null, and when finding a matching substring in the tweet should not return true.
+By looking at the code of the isMentionned method in Twitter.java, it is evident why the two tests failed. I modified the code as shown in the image below of isMentionned to handle when the tweet is null, and when finding a matching substring in the tweet should not return true. The actual_call is not dynamic so it will sometimes pass and sometimes fail, since it not designed like the mocks.
 
 
 ```
