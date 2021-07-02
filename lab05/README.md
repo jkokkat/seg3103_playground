@@ -26,3 +26,26 @@ After replacing the stubbed code with the Assignment 2 implementation, this erro
 For this section, I implemented four missing test cases in the TwitterTest.java file. 
 These are the intial results when running the tests:
 ![image](https://user-images.githubusercontent.com/55165117/124315909-bb33f100-db42-11eb-8b9f-16357ef78675.png)
+
+By looking at the code of isMentionned in Twitter.java, it is evident why the two tests failed. I modified the code as shown in the image below of isMentionned to handle the when the tweet is null, and when finding a matching substring in the tweet should not return true.
+
+
+```
+public boolean isMentionned(String name) {
+    String tweet = loadTweet();
+    if (tweet==null){
+      return false;
+    }
+    int index = tweet.indexOf("@");
+    int index2 = tweet.indexOf(" ",index);
+    if (index2==-1){
+      tweet = tweet.substring(index);
+    }else{
+      tweet = tweet.substring(index,index2);
+    }
+    return tweet.equals("@" + name); 
+  }
+```
+
+The following image shows the results of the test cases after making modifications to the isMentionned method, with all the tests passing successfully.
+![image](https://user-images.githubusercontent.com/55165117/124316511-af94fa00-db43-11eb-8c11-dac5bbc20a1c.png)
