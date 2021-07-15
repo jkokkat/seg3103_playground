@@ -38,7 +38,25 @@ I ran the initial three tests as seen in the following screenshot here using the
 ### Part 3: Additional Testing
 
 For this section, I implemented an additional Selenium web driver test to for the login process. I added code to check that the username "admin" and the password "password" would direct the user to the admin page of the application when they click the "Sign in" button.
+This is the snippet of code I added:
+```
+@Test
+  public void test3() {
+    driver.get("http://localhost:8080/admin");
 
+    WebElement userID = driver.findElement(By.id("loginId"));
+    userID.sendKeys("admin");
+    WebElement loginPassword = driver.findElement(By.id("loginPasswd"));
+    loginPassword.sendKeys("password");
+    WebElement logIn = driver.findElement(By.id("loginBtn"));
+    logIn.click();
+
+    String actualUrl="http://localhost:8080/admin";
+    String expectedUrl= driver.getCurrentUrl();
+    assertEquals(expectedUrl, actualUrl);
+
+  }
+```
 These are the passing results when running the four tests:
 ![image](https://user-images.githubusercontent.com/55165117/125736910-36c93f9a-9f84-4559-8c90-785f359327c3.png)
 
