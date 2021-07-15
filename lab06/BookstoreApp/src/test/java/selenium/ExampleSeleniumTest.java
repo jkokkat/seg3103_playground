@@ -76,6 +76,24 @@ class ExampleSeleniumTest {
     assertEquals(expected, getWords(actual)[0]);
   }
 
+  @Test
+  public void test3() {
+    driver.get("http://localhost:8080/admin");
+
+    WebElement userID = driver.findElement(By.id("loginId"));
+    userID.sendKeys("admin");
+
+    WebElement loginPassword = driver.findElement(By.id("loginPasswd"));
+    loginPassword.sendKeys("password");
+
+    WebElement logIn = driver.findElement(By.id("loginBtn"));
+    logIn.click();
+
+    String actualUrl="http://localhost:8080/admin";
+    String expectedUrl= driver.getCurrentUrl();
+    assertEquals(expectedUrl, actualUrl);
+
+  }
   private String[] getWords(String s) {
     return s.split("\\s+");
   }
