@@ -22,6 +22,7 @@ After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in 
 
 I then ran `mvn package -DskipTests` which compiled all the tests without running them as shown in the following image. 
 ![image](https://user-images.githubusercontent.com/55165117/125735091-ec5938ce-c9af-4a03-958b-227098ae42d8.png)
+![image](https://user-images.githubusercontent.com/55165117/125739336-f3cad89b-7a62-4bf4-8d2f-2db7422ebd16.png)
 
 
 Next, I ran `java -jar ./target/BookstoreApp-0.1.0.jar`.
