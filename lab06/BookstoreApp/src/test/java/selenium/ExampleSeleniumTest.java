@@ -82,10 +82,8 @@ class ExampleSeleniumTest {
 
     WebElement userID = driver.findElement(By.id("loginId"));
     userID.sendKeys("admin");
-
     WebElement loginPassword = driver.findElement(By.id("loginPasswd"));
     loginPassword.sendKeys("password");
-
     WebElement logIn = driver.findElement(By.id("loginBtn"));
     logIn.click();
 
