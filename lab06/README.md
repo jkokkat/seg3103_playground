@@ -10,7 +10,7 @@ TA | Zahra Kakavand, zkaka044@uottawa.ca
 Team | Jasmine Kokkat 300115249
 
 
-### Part 1: Prequisites
+### Part 1: Prerequisites
 Before I started the lab, I installed Maven successfully as shown in the image below when using the command `mvn --version`. 
 ![image](https://user-images.githubusercontent.com/55165117/125734370-69770d9b-9424-4e7e-babf-1dd5ffd076ef.png)
 
@@ -20,7 +20,7 @@ After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in 
 ![image](https://user-images.githubusercontent.com/55165117/125734546-a73c33cd-05ba-435f-80c6-b3a660d193f6.png)
 
 
-I then ran `mvn package -DskipTests` which compiled all the tests without running them as shown in the following iamge. 
+I then ran `mvn package -DskipTests` which compiled all the tests without running them as shown in the following image. 
 ![image](https://user-images.githubusercontent.com/55165117/125735091-ec5938ce-c9af-4a03-958b-227098ae42d8.png)
 
 
@@ -37,7 +37,7 @@ I ran the initial three tests as seen in the following screenshot here using the
 
 ### Part 3: Additional Testing
 
-For this section, I implemented an additional Selenium web driver test to for the login process. I added code to check that the username "admin" and the password "password" would direct the user to the admin page of the application when they click the "Sign in" button.
+For this section, I implemented an additional Selenium web driver test for the login process. I added code to check that the username "admin" and the password "password" would direct the user to the admin page of the application when they click the "Sign in" button.
 This is the snippet of code I added:
 ```
 @Test
