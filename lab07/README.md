@@ -52,7 +52,7 @@ Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126669963-d0cbd46d-e384-4d28-bd9e-353793eb9313.png)
 
 To fix the code, I would create a WindowAdapter class within the CalCFrame class and in the CalCFrame method would call WindowAdapter.WindowClosing(WindowEvent e), passing in a WindowEvent as as argument, instead of creating a new WindowAdapter.
-### Bug 4:
+### Bug 4: Private method is never called
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126683519-ca44c8eb-c380-446f-a9e2-790df1530c42.png)
 
