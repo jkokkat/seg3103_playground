@@ -6,14 +6,13 @@ Outline | Value
 Course | SEG3103
 Date | July 15, 2021
 Professor | Andrew Forward aforward@uottawa.ca
-TA | Zahra Kakavand, zkaka044@uottawa.ca
+TA | Henry Chen
 Team | Jasmine Kokkat 300115249
 
 
-### Part 1: Prerequisites
+## 
 Before I started the lab, I installed Maven successfully as shown in the image below when using the command `mvn --version`. 
-![image](https://user-images.githubusercontent.com/55165117/125734370-69770d9b-9424-4e7e-babf-1dd5ffd076ef.png)
-
+![image](https://user-images.githubusercontent.com/55165117/126610344-7a1c5d1d-6ee9-4c49-8c4e-0570be3f518f.png)
 
 ### Part 2: Initial Compilations and Testing
 After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in the image below. 
