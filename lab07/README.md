@@ -15,7 +15,7 @@ Before I started the lab, I compiled the java files using the commands `javac -e
 and `java -jar ./lib/spotbugs/lib/spotbugs.jar`.
 
 These commands being run are shown in the image below.
-![image](https://user-images.githubusercontent.com/55165117/126611307-fd76b93f-375f-469f-b754-1e3e74cbe796.png)
+![image](https://user-images.githubusercontent.com/55165117/126611567-f997977f-213b-4dd4-b295-15342af60224.png)
 
 ### Part 2: Initial Compilations and Testing
 After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in the image below. 
