@@ -33,9 +33,41 @@ This is a screenshot of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126614251-0430a4a5-8902-4654-a650-42d3855829c9.png)
 
 
-## Bug 2: Certain swing methods needs to be invoked in Swing thread
+### Bug 2: Certain swing methods needs to be invoked in Swing thread
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126614648-6820cd45-8a33-4a4b-bc9c-cf5b07969920.png)
+
+### Bug 3:
+
+### Bug 4:
+
+### Bug 5:
+
+### Bug 6:
+
+### Bug 7:
+
+### Bug 8:
+
+### Bug 9:
+
+### Bug 10:
+
+### Bug 11:
+
+### Bug 12:
+
+### Bug 13:
+
+### Bug 14:
+
+### Bug 15:
+
+### Bug 16:
+
+### Bug 17:
+
+### Bug 18:
 
 ```
 @
