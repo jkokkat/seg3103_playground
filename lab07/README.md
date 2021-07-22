@@ -43,38 +43,70 @@ This is a screenshot of the fixed bug.
 In the main method, the isVisible() Swing method is being called which could cause deadlocks or other threading issues since Java Swing components are not thread-safe in Java. The SwingUtilities.invokeLater() method delays the GUI creation task until the initial thread's tasks have been completed and will then ensure the GUI creation takes place inside the method for the thread.
 
 
-### Bug 3:
+### Bug 3: Could be refactored into a named static inner class
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 4:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 5:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 6:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 7:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 8:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 9:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 10:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 11:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 12:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 13:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 14:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 15:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 16:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 17:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ### Bug 18:
+Below is a screenshot of the first bug before making the changes:
 
+This is a screenshot of the fixed bug.
 ```
 @
 ```
