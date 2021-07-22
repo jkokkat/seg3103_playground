@@ -37,6 +37,12 @@ This is a screenshot of the fixed bug.
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126614648-6820cd45-8a33-4a4b-bc9c-cf5b07969920.png)
 
+This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126616192-0d7d62f4-9c14-4985-abc2-9cd66e3bdd7a.png)
+
+In the main method, the isVisible() Swing method is being called which could cause deadlocks or other threading issues since Java Swing components are not thread-safe in Java. The SwingUtilities.invokeLater() method delays the GUI creation task until the initial thread's tasks have been completed and will then ensure the GUI creation takes place inside the method for the thread.
+
+
 ### Bug 3:
 
 ### Bug 4:
