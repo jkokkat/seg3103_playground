@@ -81,29 +81,11 @@ This is a screenshot of the fixed bug.
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126689900-73980e47-d104-4fe8-8d4e-5b219da09d48.png)
 
-This is a screenshot of the fixed bug.
+These are screenshots of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126690205-8b693b40-e1de-4235-93a8-8e2d19ae1e7a.png)
+![image](https://user-images.githubusercontent.com/55165117/126691336-a1d3edeb-1ca7-4eee-af7a-ab57cacd1877.png)
+I removed the else if statement in the first image and the else statement for line 74 in the second image.
 
-### Bug 9:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
-### Bug 10:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
-### Bug 11:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
-### Bug 12:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
-### Bug 13:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
 ### Bug 14:
 Below is a screenshot of the first bug before making the changes:
 
