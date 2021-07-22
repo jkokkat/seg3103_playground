@@ -1,5 +1,5 @@
 # seg3103_playground
-## Lab 06
+## Lab 07
 
 Outline | Value
 --------|-------
