@@ -101,8 +101,5 @@ These are screenshots of the fixed bugs.
 ![image](https://user-images.githubusercontent.com/55165117/126693125-1c9544cb-8123-405e-a8b7-4e914fb956d5.png)
 
 
-```
-@
-```
 
 
