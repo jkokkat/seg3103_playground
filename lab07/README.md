@@ -50,6 +50,7 @@ Below is a screenshot of the first bug before making the changes:
 To fix the code, I would create a WindowAdapter class within the CalCFrame class and in the CalCFrame method would call WindowAdapter.WindowClosing(WindowEvent e), passing in a WindowEvent as as argument, instead of creating a new WindowAdapter.
 ### Bug 4:
 Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126682872-8acb0a62-791a-4b3c-ab80-eec92a26e5db.png)
 
 This is a screenshot of the fixed bug.
 ### Bug 5:
