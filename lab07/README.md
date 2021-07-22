@@ -4,15 +4,18 @@
 Outline | Value
 --------|-------
 Course | SEG3103
-Date | July 15, 2021
+Date | July 22, 2021
 Professor | Andrew Forward aforward@uottawa.ca
-TA | Henry Chen
+TA | Henry Chen, zchen229@uottawa.ca
 Team | Jasmine Kokkat 300115249
 
 
-## 
-Before I started the lab, I installed Maven successfully as shown in the image below when using the command `mvn --version`. 
-![image](https://user-images.githubusercontent.com/55165117/126610344-7a1c5d1d-6ee9-4c49-8c4e-0570be3f518f.png)
+## Static Analysis with SpotBugs
+Before I started the lab, I compiled the java files using the commands `javac -encoding UTF-8 --source-path src -d dist src/*.java.` and `javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-console-standalone-1.7.1.jar test/*.java`. I ran the application with the command `java -cp ./dist Main`
+and `java -jar ./lib/spotbugs/lib/spotbugs.jar`.
+
+These commands being run are shown in the image below.
+![image](https://user-images.githubusercontent.com/55165117/126611307-fd76b93f-375f-469f-b754-1e3e74cbe796.png)
 
 ### Part 2: Initial Compilations and Testing
 After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in the image below. 
