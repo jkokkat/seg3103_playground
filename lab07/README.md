@@ -70,7 +70,7 @@ This is a screenshot of the fixed bugs.
 
 ![image](https://user-images.githubusercontent.com/55165117/126688418-dca7f8f2-9378-4672-90c0-e8f8117108af.png)
 
-### Bug 7: Unread field: should this field be static?:
+### Bugs 7-12: Unread field: should this field be static?:
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126689158-0a2082d8-ee63-484f-b93f-dfeca18c69bd.png)
 
