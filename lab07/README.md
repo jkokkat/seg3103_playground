@@ -83,8 +83,7 @@ Below is a screenshot of the first bug before making the changes:
 
 These are screenshots of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126690205-8b693b40-e1de-4235-93a8-8e2d19ae1e7a.png)
-![image](https://user-images.githubusercontent.com/55165117/126691336-a1d3edeb-1ca7-4eee-af7a-ab57cacd1877.png)
-I removed the else if statement in the first image and the else statement for line 74 in the second image.
+
 
 ### Bug 14: Switch statement found where default case is missing
 Below is a screenshot of the first bug before making the changes:
@@ -92,9 +91,12 @@ Below is a screenshot of the first bug before making the changes:
 This is a screenshot of the fixed bug.
 ### Bugs 15-18: Condition has no effect
 Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126692766-e676e2ed-e584-4ef8-b7c5-2cc8d1f65cf4.png)
+
+These are screenshots of the fixed bugs.
 ![image](https://user-images.githubusercontent.com/55165117/126692473-6500a57f-40f9-4877-a19f-4a1b19456edd.png)
 
-This is a screenshot of the fixed bugs.
+
 
 ```
 @
