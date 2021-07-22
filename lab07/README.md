@@ -82,6 +82,8 @@ Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126689900-73980e47-d104-4fe8-8d4e-5b219da09d48.png)
 
 This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126690205-8b693b40-e1de-4235-93a8-8e2d19ae1e7a.png)
+
 ### Bug 9:
 Below is a screenshot of the first bug before making the changes:
 
