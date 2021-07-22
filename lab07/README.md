@@ -45,6 +45,7 @@ In the main method, the isVisible() Swing method is being called which could cau
 
 ### Bug 3: Could be refactored into a named static inner class
 Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126669963-d0cbd46d-e384-4d28-bd9e-353793eb9313.png)
 
 This is a screenshot of the fixed bug.
 ### Bug 4:
