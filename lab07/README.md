@@ -96,6 +96,7 @@ Below is a screenshot of the first bug before making the changes:
 These are screenshots of the fixed bugs.
 ![image](https://user-images.githubusercontent.com/55165117/126692473-6500a57f-40f9-4877-a19f-4a1b19456edd.png)
 
+![image](https://user-images.githubusercontent.com/55165117/126693125-1c9544cb-8123-405e-a8b7-4e914fb956d5.png)
 
 
 ```
