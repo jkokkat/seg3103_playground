@@ -81,7 +81,7 @@ Below is a screenshot of the first bug before making the changes:
 This is a screenshot of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126689664-9432140e-7e67-4832-8bd7-6142956d1fa5.png)
 
-### Bug 13 Method uses the same code for two branches:
+### Bug 13: Method uses the same code for two branches:
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126689900-73980e47-d104-4fe8-8d4e-5b219da09d48.png)
 
