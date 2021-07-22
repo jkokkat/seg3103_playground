@@ -20,6 +20,8 @@ These commands being run are shown in the image below.
 The image below shows when the application is running:
 ![image](https://user-images.githubusercontent.com/55165117/126612026-c60a8746-d85e-492f-9fb8-75c47c0dfe41.png)
 
+The screenshot below shows SpotBugs with a total of 18 tests:
+![image](https://user-images.githubusercontent.com/55165117/126612312-2e653cec-17c1-42d7-afd4-46195580c933.png)
 ### Part 2: Initial Compilations and Testing
 After extracting the zip file for BookstoreApp, I ran `mvn compile` as shown in the image below. 
 ![image](https://user-images.githubusercontent.com/55165117/125734546-a73c33cd-05ba-435f-80c6-b3a660d193f6.png)
