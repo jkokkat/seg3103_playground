@@ -60,7 +60,7 @@ Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126682872-8acb0a62-791a-4b3c-ab80-eec92a26e5db.png)
 
 This is a screenshot of the fixed bug.
-### Bugs 6 and 7: Boxing/unboxing to parse a primitive
+### Bugs 5 and 6: Boxing/unboxing to parse a primitive
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126686888-feb87621-37d5-43a8-8154-8384a659b34e.png)
 
