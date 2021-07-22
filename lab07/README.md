@@ -26,7 +26,8 @@ The screenshot below shows SpotBugs with a total of 18 tests:
 
 ### Bug 1: Comparison of String parameter using == or !=
 
-
+Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126612312-2e653cec-17c1-42d7-afd4-46195580c933.png)
 ```
 @
 ```
