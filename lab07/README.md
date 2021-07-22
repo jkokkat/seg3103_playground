@@ -53,6 +53,7 @@ Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126683519-ca44c8eb-c380-446f-a9e2-790df1530c42.png)
 
 This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126683764-e3e74db3-2d9e-4c96-981e-84d6e90ec815.png)
 
 ### Bug 5:
 Below is a screenshot of the first bug before making the changes:
