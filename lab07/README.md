@@ -87,8 +87,12 @@ These are screenshots of the fixed bug.
 
 ### Bug 14: Switch statement found where default case is missing
 Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126694502-f5718da8-3d05-47e0-b6a7-3a63fddbfc6e.png)
 
 This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126694618-5103b63a-736d-4648-9ef0-236524c60e59.png)
+A default case was added to check for errors.
+
 ### Bugs 15-18: Condition has no effect
 Below are screenshots of the bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126692766-e676e2ed-e584-4ef8-b7c5-2cc8d1f65cf4.png)
