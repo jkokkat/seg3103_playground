@@ -75,6 +75,8 @@ Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126689158-0a2082d8-ee63-484f-b93f-dfeca18c69bd.png)
 
 This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126689664-9432140e-7e67-4832-8bd7-6142956d1fa5.png)
+
 ### Bug 8:
 Below is a screenshot of the first bug before making the changes:
 
