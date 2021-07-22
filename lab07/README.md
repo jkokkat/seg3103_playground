@@ -91,7 +91,7 @@ Below is a screenshot of the first bug before making the changes:
 
 This is a screenshot of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126694618-5103b63a-736d-4648-9ef0-236524c60e59.png)
-A default case was added to check for errors.
+A default case was added to execute if none of the cases were matched. The default case handles an invalid operator and returns an error message.
 
 ### Bugs 15-18: Condition has no effect
 Below are screenshots of the bug before making the changes:
