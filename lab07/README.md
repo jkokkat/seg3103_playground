@@ -55,13 +55,10 @@ Below is a screenshot of the first bug before making the changes:
 This is a screenshot of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126683764-e3e74db3-2d9e-4c96-981e-84d6e90ec815.png)
 
-### Bug 5:
-Below is a screenshot of the first bug before making the changes:
+### Bugs 5 and 6: Boxing/unboxing to parse a primitive
+Below is a screenshot of the bugs before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126682872-8acb0a62-791a-4b3c-ab80-eec92a26e5db.png)
 
-This is a screenshot of the fixed bug.
-### Bugs 5 and 6: Boxing/unboxing to parse a primitive
-Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126686888-feb87621-37d5-43a8-8154-8384a659b34e.png)
 
 This is a screenshot of the fixed bugs.
@@ -69,6 +66,10 @@ This is a screenshot of the fixed bugs.
 
 ![image](https://user-images.githubusercontent.com/55165117/126688418-dca7f8f2-9378-4672-90c0-e8f8117108af.png)
 
+### Bug 7:
+Below is a screenshot of the first bug before making the changes:
+
+This is a screenshot of the fixed bug.
 ### Bug 8:
 Below is a screenshot of the first bug before making the changes:
 
