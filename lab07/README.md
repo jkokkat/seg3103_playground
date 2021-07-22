@@ -90,8 +90,10 @@ Below is a screenshot of the first bug before making the changes:
 
 This is a screenshot of the fixed bug.
 ### Bugs 15-18: Condition has no effect
-Below is a screenshot of the first bug before making the changes:
+Below are screenshots of the bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126692766-e676e2ed-e584-4ef8-b7c5-2cc8d1f65cf4.png)
+
+![image](https://user-images.githubusercontent.com/55165117/126693213-29a27477-55ee-4a9e-b5d6-fe41c6b84cd3.png)
 
 These are screenshots of the fixed bugs.
 ![image](https://user-images.githubusercontent.com/55165117/126692473-6500a57f-40f9-4877-a19f-4a1b19456edd.png)
