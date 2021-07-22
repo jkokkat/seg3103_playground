@@ -18,18 +18,22 @@ These commands being run are shown in the image below.
 ![image](https://user-images.githubusercontent.com/55165117/126611567-f997977f-213b-4dd4-b295-15342af60224.png)
 
 The image below shows when the application is running:
+
 ![image](https://user-images.githubusercontent.com/55165117/126612026-c60a8746-d85e-492f-9fb8-75c47c0dfe41.png)
 
 The screenshot below shows SpotBugs with a total of 18 tests:
+
 ![image](https://user-images.githubusercontent.com/55165117/126612312-2e653cec-17c1-42d7-afd4-46195580c933.png)
 
 
 ### Bug 1: Comparison of String parameter using == or !=
 
 Below is a screenshot of the first bug before making the changes:
+
 ![image](https://user-images.githubusercontent.com/55165117/126612312-2e653cec-17c1-42d7-afd4-46195580c933.png)
 
 This is a screenshot of the fixed bug.
+
 ![image](https://user-images.githubusercontent.com/55165117/126614251-0430a4a5-8902-4654-a650-42d3855829c9.png)
 
 
