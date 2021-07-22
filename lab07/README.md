@@ -28,6 +28,12 @@ The screenshot below shows SpotBugs with a total of 18 tests:
 
 Below is a screenshot of the first bug before making the changes:
 ![image](https://user-images.githubusercontent.com/55165117/126612312-2e653cec-17c1-42d7-afd4-46195580c933.png)
+
+This is a screenshot of the fixed bug.
+![image](https://user-images.githubusercontent.com/55165117/126614251-0430a4a5-8902-4654-a650-42d3855829c9.png)
+
+
+
 ```
 @
 ```
