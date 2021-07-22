@@ -86,26 +86,16 @@ These are screenshots of the fixed bug.
 ![image](https://user-images.githubusercontent.com/55165117/126691336-a1d3edeb-1ca7-4eee-af7a-ab57cacd1877.png)
 I removed the else if statement in the first image and the else statement for line 74 in the second image.
 
-### Bug 14:
+### Bug 14: Switch statement found where default case is missing
 Below is a screenshot of the first bug before making the changes:
 
 This is a screenshot of the fixed bug.
-### Bug 15:
+### Bugs 15-18: Condition has no effect
 Below is a screenshot of the first bug before making the changes:
+![image](https://user-images.githubusercontent.com/55165117/126692473-6500a57f-40f9-4877-a19f-4a1b19456edd.png)
 
-This is a screenshot of the fixed bug.
-### Bug 16:
-Below is a screenshot of the first bug before making the changes:
+This is a screenshot of the fixed bugs.
 
-This is a screenshot of the fixed bug.
-### Bug 17:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
-### Bug 18:
-Below is a screenshot of the first bug before making the changes:
-
-This is a screenshot of the fixed bug.
 ```
 @
 ```
