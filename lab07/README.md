@@ -109,7 +109,7 @@ These are screenshots of the fixed bugs.
 ![image](https://user-images.githubusercontent.com/55165117/126693125-1c9544cb-8123-405e-a8b7-4e914fb956d5.png)
 
 After fixing 17 bugs, the screenshot below shows the updated SpotBug errors:
-![image](https://user-images.githubusercontent.com/55165117/126695002-a3128a2f-8686-41b2-860e-9b37f372149e.png)
+![image](https://user-images.githubusercontent.com/55165117/126696414-35c87d6e-a130-4c30-b539-9c297a42853b.png)
 
 
 
